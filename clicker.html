@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clicker.io</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <div class="row">
+            <div>
+                <label for="Avatar-Upgrade">Avatar</label>
+                <input type="image" type="button" id="Avatar-Upgrade" name="Avatar-Upgrade" src="https://cdn3.iconfinder.com/data/icons/avatar-165/536/NORMAL_HAIR-512.png" height="100px" width="100px">
+                <label for="first-name"></label>
+                <input type="text" id="first-name" name="first-name" style="width: 100px;">
+            </div>
+        </div>
+    </div>
+</div>
+<center><p id="pts">0</p></center>
+<center><button id="button">Click Me!</button></center>
+<button id="upgrader">Upgrade1</button>
+<script>
+
+    let button = document.getElementById('button');
+    let pts = document.getElementById('pts');
+    let clicks = 0;
+
+    button.addEventListener('click', function() {
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' + pts.textContent);
+    });
+if(pts == 100){
+    let pts = document.getElementById('Avatar-Upgrade')
+}
+
+</script>
+
+
+</body>
+</html>
