@@ -9,22 +9,29 @@
 <div class="container">
     <div class="content">
         <div class="row">
+            <div clas="center">
             <div>
-                <label for="Avatar-Upgrade">Avatar</label>
+                <label for="Avatar-Upgrade"></label>
                 <input type="image" type="button" id="Avatar-Upgrade" name="Avatar-Upgrade" src="https://cdn3.iconfinder.com/data/icons/avatar-165/536/NORMAL_HAIR-512.png" height="100px" width="100px">
-                <label for="first-name"></label>
-                <input type="text" id="first-name" name="first-name" style="width: 100px;">
+                <center><p id="pts">0</p></center>
+                <center><button id="button">Click Me!</button></center>
+                <center><button id="upgrader">Upgrade1</button></center>
+                <center><button id="upgrader2">Upgrade2</button></center>
+                <center><button id="upgrader3">Upgrade3</button></center>
+                <center><button id="upgrader4">Upgrade4</button></center>
+            </div>
             </div>
         </div>
     </div>
 </div>
-<center><p id="pts">0</p></center>
-<center><button id="button">Click Me!</button></center>
-<button id="upgrader">Upgrade1</button>
 <script>
 
     let button = document.getElementById('button');
     let pts = document.getElementById('pts');
+    let upgrader = document.getElementById('upgrader');
+    let upgrader2 = document.getElementById('upgrader2');
+    let upgrader3 = document.getElementById('upgrader3');
+    let upgrader4 = document.getElementById('upgrader4');
     let clicks = 0;
 
     button.addEventListener('click', function() {
@@ -32,9 +39,102 @@
         pts.innerHTML= clicks;
         console.log('Button clicked: ' + pts.textContent);
     });
-if(pts == 100){
-    let pts = document.getElementById('Avatar-Upgrade')
-}
+
+    upgrader.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+    upgrader.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+
+    upgrader2.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+
+    upgrader2.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+
+    upgrader2.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+
+    upgrader2.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+
+    upgrader2.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+    upgrader3.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+    upgrader3.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+    upgrader3.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+    upgrader3.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+    upgrader3.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+    upgrader3.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+    upgrader3.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+    upgrader3.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+    upgrader3.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+    upgrader3.addEventListener('click', function(){
+        clicks++;
+        pts.innerHTML= clicks;
+        console.log('Button clicked: ' +  pts.textContent);
+    });
+
+
+    if(pts == 20){
+        console.log( 'upgrader' * 3 );
+    }
 
 </script>
 
