@@ -310,11 +310,11 @@
 
     const times60 = document.getElementById('win');
 
-    let z = 40000;
+    let z = 999999999;
 
     times60.addEventListener('click', function(e){
-        if(score >= 1000000){
-            score -= 1000000;
+        if(score >= 1000000000000){
+            score -= 1000000000000;
             click.addEventListener('click', function(e){
                 score += z;
                 scorePlace.innerHTML = `<h3 id="score">Fishes fed to the Dragon: ${score}</h3>`;
